@@ -1,0 +1,554 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* height: 400px; */
+
+}
+main{
+
+    height: 100vh;
+
+}
+nav ul {
+    list-style: none;
+   position: absolute;
+   left: 250px;
+   top: 40px;
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    margin: 0 16px;
+    
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: #669a52;
+    color: black;
+}
+header img{
+    width: 200px;
+    height: 100px;
+}
+.first-lista a {
+    color: #669a52;
+}
+.hover:hover{
+    color: #669a52;
+}
+.irst-hoverf:hover{
+    color: #8a547e;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    margin-top: 20px;
+    position: relative;
+ 
+}
+.lista-icons{
+    list-style: none;;
+  position: relative;
+  margin-top: 28px;  
+  
+
+ 
+}
+.in-line-block{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+.lisata-icons-li{
+    display: inline-block;
+}
+
+
+.lista-icons li {
+    color:#8a547e ;
+    font-size: 12px;
+    
+
+    /* display: inline-block; */
+}
+
+
+.body-bacground {
+    width: 80%;
+    margin: auto;
+    background-image: url(../img/baac55.jpg);
+    background-size: 100% 100%;
+    height: 70vh;
+    margin-top: 40px;
+    position: relative;
+}
+.content-body{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+
+    width: 100%;
+    height: 300px;
+   
+}
+.content-body h2{
+    font-size: 45px;
+    letter-spacing: 1px;
+
+   width: 100%;
+   height: 100px;
+   
+}
+.content-body button{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background-color: #669a52;
+    border: 1px solid #669a52;
+    color: white;
+}
+.first-cection{
+    height: 160vh;
+   
+  
+}
+.title-category{
+    text-align: center;
+    font-size: 35px;
+    /* color:#669a52; */
+    color:#8a547e;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+
+
+.container-category{
+    width: 90%;
+    margin: auto;
+    height: 55vh;
+ 
+
+}
+.parent-contagory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item-contagory{
+    
+    height:55vh ;
+  
+    position: relative;
+   
+}
+.item-contagory img{
+    width: 100%;
+    height: 230px;
+    background-color: #8a547e;
+}
+.item-contagory h4{
+    height: 18px;
+    color: rgb(106, 104, 104);
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item-contagory h2{
+    height: 20px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+ /* color: #6aa5a5de; */
+  font-weight: 400;
+  color: rgb(33, 32, 32);
+  font-style: normal;
+ 
+  
+
+   
+    font-size: 22px;
+}
+.item-contagory i {
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    font-size: 35px;
+    background-color: #ae3b88;
+    color: white;
+    width: 34px;
+    height: 32px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s;
+}
+.item-contagory:hover i {
+    visibility: visible;
+    opacity: 1;
+}
+.contaier-second-category{
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.parent-second-category{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   padding: 10px;
+}
+.item-second-cateory{
+    width: 60%;
+    height:50vh ;
+ background-color: #d6caca47;
+ padding: 5px;
+ position: relative;
+
+   
+}
+.top-second-cotagory{
+    height: 100px;
+    /* background-color: gray; */
+    position: relative;
+}
+.top-second-cotagory i {
+    display: inline;
+    font-size: 69px;
+    position: absolute;
+    left: 2px;
+    top: 35px;
+    color: #e996e1;
+}
+.top-second-cotagory h2{
+    margin-left: 70px;
+    /* margin-top: 20px; */
+    padding-top: 14px;
+    font-size: 28px;
+    height: 20px;
+} 
+.top-second-cotagory span {
+    display: inline-block;
+    margin-left: 74px;
+    padding-top: 26px;
+    font-size: 20px;
+}
+.p-second-cotagry{
+   
+    font-size: 18px;
+    
+    height: 120px;
+}
+.second-catogry {
+    background-color: gray;
+    height: 50vh;
+background-image: url(../img/las2-bag.jpeg);
+background-size: 100% 100%;
+transition: 1s;
+}
+.second-catogry h4{
+    height: 20px;
+    padding: 10px ;
+    font-size: 23px;
+    color: #b06dab;
+}
+.second-catogry h2{
+    padding-top: 20px;
+}
+.second-catogry:hover{
+    transform: scale(1.1);
+   
+}
+.category-back{
+    background-image: url(../img/las-bag.jpg);
+    background-size: 100% 100%;
+}
+.line-second-cotagory{
+   
+    text-align: right;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+}
+.line-second-cotagory span{
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #669a52;
+    margin-left: 10px;
+}
+
+.container-position{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    /* background-color: rgb(219, 213, 213); */
+    height: 20vh;
+}
+.parent-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    height: 20vh;
+}
+.item-positon{
+    text-align: center;
+    border-right: 1px solid #8a547e;
+    height: 20vh;
+  
+    
+}
+.im1,.im2,.im3,.im4,.im5{
+    background-image: url(../img/hover-back.png);
+    background-repeat: no-repeat;
+    height: 55px;
+    transition: all .5s;
+
+}
+.im1{
+    background-position: center 10px;
+
+  
+}
+.im1:hover{
+background-position: center -80px;
+
+ }
+.im2{
+    background-position: center -180px;
+}
+.im2:hover{
+    background-position: center -250px;
+ 
+   
+}
+.im3{
+    background-position: center -362px;
+}
+.im3:hover{
+    background-position: center -400px;
+ 
+}
+.im4{
+    background-position: center -550px;
+}
+.im4:hover{
+    background-position: center -633px;
+   
+}
+.im5 {
+    background-position: center -735px;
+}
+.im5:hover{
+    background-position: center -822px;
+   
+
+}
+.info-positon h2{
+  
+    height: 30px;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 146, 146);
+   
+}
+.info-positon p{
+    height: 18px;
+    color: #a48181;
+    font-size: 18px;
+}
+
+.line-nwe{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(207, 200, 200);
+    height: 1px;
+}
+
+.title-section-three{
+  
+    text-align: center;
+    height: 30px;
+    margin-top: 80px;
+    font-size: 35px;
+    /* color: #669a52; */
+    color: #AE77A1;
+    margin-bottom: 32px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+   
+}
+.line-hover{
+    display: block;
+    width: 110px;
+    margin: auto;
+    height: 2px;
+    background-color:#cfc8c8;
+    transition: width .5s;
+
+
+}
+.line-hover:hover{
+   display: block;
+    width: 150px;
+    margin: auto;
+    height: 2px;
+    background-color:#b06dab;
+
+
+}
+.lista-section-three{
+    list-style: none;
+text-align: center;
+margin-top: 38px;
+height: 40px;
+
+}
+.lista-section-three li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a48181;
+}
+
+.parent-section-3{
+    width: 90%;
+    /* background-color: gray; */
+    height: 330px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+  
+    
+}
+.info-section{
+    position: absolute;
+    top: 90%;
+    left: 0;
+}
+.item1-section-3 {
+    width: 32%;
+    height: 320px;
+    transform-style: preserve-3d;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 2s;
+    background-color: gray;
+   
+   
+}
+
+.front-3{
+  backface-visibility: hidden;
+   
+    z-index: 2;
+}
+.back-3{
+    background-color: salmon;
+}
+.front-3,.back-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+.front-1{
+    background-image: url(../img/bag-12.jpg);
+    background-size: 100% 100%;
+}
+.front-2{
+    background-image: url(../img/bag-8.jpg);
+    background-size: 100% 100%;
+}
+.front-4{
+    background-image: url(../img/the-bes-1.jpg);
+    background-size: 100% 100%;
+}
+.item1-section-3:hover  {
+transform: rotateY(180deg);
+
+}
+
+
+.back-1{
+    background-image: url(../img/bag-2.jpg);
+    background-size: 100% 100%;
+}
+.back-2{
+    background-image: url(../img/bag-11.jpg);
+    background-size: 100% 100%;
+}
+.back-4{
+    background-image: url(../img/bag4.jpg);
+    background-size: 100% 100%;
+}
+
+.lista-back{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.lista-back li{
+    display: inline-block;
+    
+}
+.lista-back li i {
+font-size: 33px;
+width: 40px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+color: white;
+background-color: #619898;
+}
+.parent-title-new{
+    width: 90%;
+    margin: auto;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.item-title-one{
+    width: 30%;
+}
+.title-one{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    font-size: 19px;
+    color: rgb(106, 104, 104);
+
+}
+
+.par-one{
+height: 18px;
+color: #B07D94;
+font-size: 18px;
+margin-top: 10px;
+text-align: left;
+}
